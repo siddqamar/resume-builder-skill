@@ -17,11 +17,15 @@ This skill automates the process of building and personalizing resumes using a m
    - Select relevant bullet points from the master resume.
    - Adjust the "Professional Summary" to align with the JD.
    - Inject keywords from the JD into the "Skills" section.
-4. **Generate Output:** Use the template in `assets/templates/resume_markdown.md` to produce a clean Markdown resume.
+4. **Generate Output:** 
+   - Use the template in `assets/templates/resume_markdown.md` to produce a clean Markdown resume.
+   - If requested, convert the Markdown to **PDF** or **PNG** using `assets/scripts/convert_resume.py`.
 
 ## Commands & Triggers
 
 - **"Create a resume for [Company/Role]"**: Analyzes the JD (if provided) and generates a tailored Markdown resume.
+- **"Export my resume as PDF"**: Converts the existing Markdown resume (or a newly generated one) into a professional PDF.
+- **"Save my resume as PNG"**: Converts the resume into a high-quality PNG image.
 - **"Update my master resume"**: Modifies `references/master_resume.json` with new information provided by the user.
 - **"Make my resume ATS-friendly"**: Rewrites the current resume content following the rules in `references/ats_standards.md`.
 
