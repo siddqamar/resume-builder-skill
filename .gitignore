@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local virtual environments and tool caches
+.venv/
+venv/
+env/
+.cache/
+
+# Generated resume exports
+*.pdf
+*.png
+
+# Local agent/runtime state
+.agents/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.tmp

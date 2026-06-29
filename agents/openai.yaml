@@ -1,0 +1,7 @@
+interface:
+  display_name: "Resume Builder"
+  short_description: "Create and tailor ATS-friendly resumes"
+  default_prompt: "Use $resume-builder to tailor my resume for this job description."
+
+policy:
+  allow_implicit_invocation: true
