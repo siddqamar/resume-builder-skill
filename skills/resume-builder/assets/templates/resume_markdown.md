@@ -5,6 +5,7 @@
 ---
 
 ## PROFESSIONAL SUMMARY
+
 {summary}
 
 ---

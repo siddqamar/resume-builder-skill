@@ -1,0 +1,18 @@
+{
+  "personal_info": {
+    "name": "Your Name",
+    "location": "City, Country",
+    "email": "you@example.com",
+    "phone": "+1 555 010 0000",
+    "linkedin": "linkedin.com/in/your-profile",
+    "summary": "Replace this starter profile with your own professional summary."
+  },
+  "experience": [],
+  "consultancy": [],
+  "education": [],
+  "skills": {
+    "leadership": [],
+    "frontend": [],
+    "interests": []
+  }
+}

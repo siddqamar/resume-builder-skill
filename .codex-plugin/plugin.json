@@ -1,0 +1,26 @@
+{
+  "name": "resume-builder",
+  "version": "0.2.0",
+  "description": "Create, tailor, and export ATS-friendly resumes from structured career data.",
+  "repository": "https://github.com/siddqamar/resume-builder-skill",
+  "license": "MIT",
+  "keywords": [
+    "resume",
+    "cv",
+    "ats",
+    "job-search",
+    "career"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Resume Builder",
+    "shortDescription": "Create and tailor ATS-friendly resumes",
+    "longDescription": "Build, update, personalize, and export professional resumes from structured career data without inventing experience.",
+    "developerName": "Sidd Qamar",
+    "category": "Productivity",
+    "defaultPrompt": [
+      "Use Resume Builder to tailor my resume for this job description.",
+      "Use Resume Builder to create an ATS-friendly resume from my career data."
+    ]
+  }
+}
